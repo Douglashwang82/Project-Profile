@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import { Opening } from './components/opening/Opening';
 import { Lantern } from './components/lantern/Lantern';
+import { AboutMe } from './components/aboutme/AboutMe';
 
 function App() {
   return (
     <>
-      <Opening></Opening>
       <Lantern></Lantern>
+      <AboutMe></AboutMe>
     </>
   );
 }
