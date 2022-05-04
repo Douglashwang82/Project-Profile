@@ -18,9 +18,8 @@ export const Lantern: React.FC = () => {
             {
             window.screen.width <= 768 ?
             <p>here is some thing</p> :
-            <p>there is nothing</p>
-            }
             <MySpline scene="https://prod.spline.design/RhniX4xuYOGdSlt8/scene.spline" />
+            }
         </Container>
 
         
