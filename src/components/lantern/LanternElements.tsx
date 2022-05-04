@@ -24,10 +24,16 @@ export const GreetingLabel = styled.text`
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Mono', monospace;
     color: #B3FFB5;
+    @media only screen and (max-width: 500px) {
+        font-size:10px;
+    }
 `
 export const NameLabel = styled.text`
     font-size:100px;
     font-family: 'Raleway', sans-serif;
+    @media only screen and (max-width: 500px) {
+        font-size:40px;
+    }
 `
 export const BioLabel = styled.article`
     font-size:30px;
@@ -36,4 +42,7 @@ export const BioLabel = styled.article`
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Mono', monospace;
     color: #B3FFB5;
+    @media only screen and (max-width: 500px) {
+        font-size:20px;
+    }
 `
