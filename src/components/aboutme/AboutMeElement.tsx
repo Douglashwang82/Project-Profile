@@ -28,4 +28,7 @@ export const MyAvatar =styled.img`
     max-width:80%;
     height:auto;
     border-radius: 10px;
+    @media only screen and (max-width: 500px) {
+        width:300px;
+      }
 `

@@ -21,7 +21,9 @@ export const OtherProjects: React.FC = () => {
                 <h2>123</h2>
             </NameCard>
             <NameCard>
-                <h2>123</h2>
+                <text>123efwefwef123efwefwef123efwef
+                    wef123efwefwef123efwefwef123efwefwef12  3ef
+             wefwef</text>
             </NameCard>
             <NameCard>
                 <h2>123</h2>

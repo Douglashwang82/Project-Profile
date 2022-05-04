@@ -20,7 +20,7 @@ export const Card = styled.div`
 
 `
 export const GreetingLabel = styled.text`
-    font-size:20px;
+    font-size:15px;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Mono', monospace;
     color: #B3FFB5;
@@ -29,14 +29,14 @@ export const GreetingLabel = styled.text`
     }
 `
 export const NameLabel = styled.text`
-    font-size:100px;
+    font-size:80px;
     font-family: 'Raleway', sans-serif;
     @media only screen and (max-width: 500px) {
         font-size:40px;
     }
 `
 export const BioLabel = styled.article`
-    font-size:30px;
+    font-size:20px;
     width:60%;
     min-width:480px;
     font-family: 'Raleway', sans-serif;
