@@ -1,10 +1,22 @@
 import React from 'react';
-import { Container } from './LanternElements';
 import Spline from '@splinetool/react-spline';
+import { Container,
+    MySpline,
+    Card,
+    NameLabel,
+    GreetingLabel,
+    BioLabel,
+} from './LanternElements';
 export const Lantern: React.FC = () => {
     return (<>
-        
-        <Spline scene="https://prod.spline.design/RhniX4xuYOGdSlt8/scene.spline" />
+        <Container>
+            <Card>
+            <GreetingLabel>Hi, My name is</GreetingLabel><br/>
+            <NameLabel>Douglas Hwang</NameLabel><br/>
+            <BioLabel>I am a software engineer specializing in building and designing web applications.</BioLabel>
+            </Card>
+            <MySpline scene="https://prod.spline.design/RhniX4xuYOGdSlt8/scene.spline" />
+        </Container>
 
         
     </>);
