@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import autorepair from "../../static/autorepair.png";
+import { useInView } from "react-intersection-observer";
 import { 
     Container,
     ProjectsFrame,
@@ -9,10 +10,11 @@ import {
 
 } from './FeaturedProjectElements';
 
-export const FeaturedProjects: React.FC = () => {
+export const FeaturedProjects:React.FC  = () => {
+
     return ( <>
         <Container>
-            <ProjectsFrame>
+            <ProjectsFrame >
             <h1>Featured Projects</h1>
             <HiddenBoarder>
             <ProjectCard>

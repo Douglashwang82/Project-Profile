@@ -1,7 +1,19 @@
-import styled from 'styled-components';
+import styled, {keyframes} from 'styled-components';
+
+
+const myFade = keyframes`
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100;
+  }
+`
 
 export const Container = styled.div`
 color:white;
+// margin-top:200px;
 `
 
 export const ProjectsFrame = styled.div`    

@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     color:white;
-    margin-top:300px;
-    background: radial-gradient(circle at -26% -36%, purple, darkblue);
+    // margin-top:200px;
+    // background: radial-gradient(circle at -26% -36%, purple, darkblue);
 `
 export const ProjectArea = styled.div`
     margin:auto;

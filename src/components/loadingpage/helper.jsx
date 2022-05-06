@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from './OpeningElement';
 
-export const helper = () => {
+export const Helper = () => {
     return ( <>
 <svg width="100%" height="100%" viewBox="0 0 210 297" version="1.1" id="svg5" inkscape:version="1.1.2 (b8e25be833, 2022-02-05)" sodipodi:docname="logo_0.1.0.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview7" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" inkscape:snap-text-baseline="true" inkscape:zoom="1.0458444" inkscape:cx="331.31124" inkscape:cy="473.30176" inkscape:window-width="1920" inkscape:window-height="1017" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer1" inkscape:snap-grids="false" inkscape:snap-bbox="false" inkscape:bbox-nodes="false" inkscape:bbox-paths="false" inkscape:snap-bbox-edge-midpoints="false" inkscape:snap-global="false"></sodipodi:namedview>
