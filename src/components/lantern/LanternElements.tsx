@@ -48,7 +48,7 @@ export const Card = styled.div`
 `
 export const GreetingLabel = styled.text`
     font-size:15px;
-    font-family: 'Raleway', sans-serif;
+    // font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Mono', monospace;
     color: #B3FFB5;
     
@@ -69,7 +69,7 @@ export const BioLabel = styled.article`
     font-size:20px;
     width:10%;
     min-width:480px;
-    font-family: 'Raleway', sans-serif;
+    // font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Mono', monospace;
     color: #B3FFB5;
     @media only screen and (max-width: 500px) {
@@ -95,6 +95,8 @@ margin:auto;
 width:60%;
 padding-top:80px;
 min-width:800px;    
+animation: ${myFade} 1s linear;
+
 @media only screen and (max-width: 500px) {
     width:90%;
     

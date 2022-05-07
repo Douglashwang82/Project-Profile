@@ -28,7 +28,6 @@ position: relative;
 background: linear-gradient(to right, red, purple);
 padding: 3px;
 border-radius: 5px;
-
 `
 export const ProjectCard = styled.div`
 margin:auto;

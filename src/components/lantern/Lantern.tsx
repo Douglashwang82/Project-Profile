@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Spline from '@splinetool/react-spline';
 import { Fade, FadeProps } from "react-awesome-reveal";
-
+import { ScrollBox } from '../scrollbox/ScrollBox';
 import { Container,
     MySpline,
     Card,
