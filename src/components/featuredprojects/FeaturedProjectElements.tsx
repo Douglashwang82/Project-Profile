@@ -42,8 +42,6 @@ border-radius: 10px;
 //     grid-template-columns:auto;
 //     justify-content:center;
 //   }
-background:black;
-
 @media only screen and (max-width: 1000px) {
   grid-template-columns:auto;
   justify-content:center;
@@ -56,4 +54,47 @@ width:80%;
 min-width:390px;
 height:auto;
 border-radius: 10px;
+`
+
+export const Title =styled.h1`
+  border:solid;
+  width:37%;
+  text-align:center;
+  border-radius:5px;
+`
+
+
+export const TitleFrame = styled.div`
+width:50%;
+margin:auto;
+font-family: 'Raleway', sans-serif;
+`
+
+export const TextSection = styled.div`
+background:grey;
+position:absolute;
+width:20%;
+z-index:2;
+
+right:35%;
+top: 10em;
+
+`
+
+export const ImgSection = styled.div`
+filter: brightness(0.4);
+position:absolute;
+width:30%;
+z-index:1;
+left:30%;
+transition: 1s;
+&:hover{
+  filter: none;
+  z-index:3;
+}
+
+&:hover ~ #b{
+  
+  background:pink;
+}
 `

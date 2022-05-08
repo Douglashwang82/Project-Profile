@@ -120,28 +120,57 @@ font-family: 'Raleway', sans-serif;
 
 export const MyText = styled.text`
 font-family: 'Roboto Mono', monospace;
+line-height:1.6;
 
 `
 
-export const MyLi = styled.li`
-    display: flex;
-    font-size:10px;
-    align-items: center;
-    padding: 4px 0;
-    box-sizing: border-box;
+export const UlList = styled.div`
+  display:grid;
+  grid-template-columns: auto auto;
+`
+
+
+export const MyUl = styled.ul`
+padding: 0;
+list-style: none;
+display: grid;
+gap: 1rem;
+
+`
+
+
+type ListType = {
+  color1?: string,
+  color2?: string,
+}
+
+export const MyLi = styled.li<ListType>`
+display:grid;
+grid-template-columns: 1em auto;
+font-size: 0.7em;
+font-family: 'Roboto Mono', monospace;
 &:before {
-    content: "🔵"; /* FontAwesome Unicode */
-    color:red;
-    font-size: 0.3rem;
-    text-align: left;
-    font-weight: bold;
-    min-width: 20px;
-    text;
-    lign-self: flex-start;
-    background-image: linear-gradient(red, yellow, blue);
-    background-attachment: fixed;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  content: "🔵";
+  align-item:center;
+  padding-top:2px;
+  font-size: 3px;
+
+  background: -webkit-linear-gradient(55deg,${props => props.color1?
+  props.color1 : props.color} 50%, 
+  ${props =>props.color2
+  ?
+  props.color2 : props.color
+  } 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 };
 
+`
+
+export const Title =styled.h1`
+  border:solid;
+  width:20%;
+  text-align:center;
+  border-radius:5px;
 `
