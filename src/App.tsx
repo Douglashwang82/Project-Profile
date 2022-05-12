@@ -33,15 +33,14 @@ function App() {
           <ScrollBox id="about">
             <AboutMe />
           </ScrollBox>
-       
+{/*        
           <ScrollBox id="featured">
             <FeaturedProjects />
           </ScrollBox>
 
           <ScrollBox id="other">
             <OtherProjects />
-            
-          </ScrollBox>
+          </ScrollBox> */}
 
           <ScrollBox id="contact">
             <ContactMe />
