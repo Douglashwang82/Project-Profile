@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import meImg from "../../static/newmes.jpg";
-import meAvatar from "../../static/lol_avatar_new.jpeg";
+import meAvatar from "../../static/lol_avatar_new.jpg";
 import {Fade} from 'react-awesome-reveal';
 import { useInView } from "react-intersection-observer";
 import {useIntersection} from '../helpers/useIntersection';
