@@ -39,13 +39,13 @@ function App() {
           </ScrollBox>
 
           <ScrollBox id="other">
-            {/* <OtherProjects /> */}
-            <div></div>
+            <OtherProjects />
+            
           </ScrollBox>
 
           <ScrollBox id="contact">
-            {/* <ContactMe /> */}
-            <div></div>
+            <ContactMe />
+            
           </ScrollBox>
 
           <SideBar></SideBar>
