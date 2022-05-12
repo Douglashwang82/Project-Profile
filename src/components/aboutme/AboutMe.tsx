@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import meImg from "../../static/newmes.jpg";
 import meAvatar from "../../static/lol_avatar_new.jpg";
+import meAva from "../../static/lol_avatar_new.jpg";
 import {Fade} from 'react-awesome-reveal';
 import { useInView } from "react-intersection-observer";
 import {useIntersection} from '../helpers/useIntersection';
@@ -21,8 +22,6 @@ import {
     Title
 
 } from './AboutMeElement';
-
-
 
 export const AboutMe: React.FC = () => {
     
